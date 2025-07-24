@@ -1,17 +1,17 @@
 def add(x,y):
-    print(x+y)
+    print(f"Result of addition: {x+y}")
 
 def subtraction(x,y):
-    print(x-y)
+    print(f"Result of subtraction: {x-y}")
 
 def division(x,y):
     try:
-        print(x/y)
+        print(f"Result of devision: {x/y}")
     except ZeroDivisionError:
         print("Cant divide by zero!")
 
 def multi(x,y):
-    print(x*y)
+    print(f"Result of multiplication: {x*y}")
 
 x_user=input("Enter first number: ")
 y_user=input("Enter second number: ")
